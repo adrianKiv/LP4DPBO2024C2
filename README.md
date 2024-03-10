@@ -11,30 +11,30 @@ Saya Adrian Mulianto NIM [2200939] mengerjakan soal Latihan Praktikum-4 dalam ma
 
 ## Penjelasan Program
 1. Kelas Car
-   Kelas Anak dari Kelas Vehicle
-   `Atribut`: Jumlah Kursi & Jumlah Pintu
-   `Method`: Konstruktor, Setter & Getter
+   - Kelas Anak dari Kelas Vehicle
+   - `Atribut`: Jumlah Kursi & Jumlah Pintu
+   - `Method`: Konstruktor, Setter & Getter
 2. Kelas Motorcycle
-   Kelas Anak dari Kelas Vehicle
-   `Atribut`: Jenis Motor & Kapasitas Tangki
-   `Method`: Konstruktor, Setter & Getter
+   - Kelas Anak dari Kelas Vehicle
+   - `Atribut`: Jenis Motor & Kapasitas Tangki
+   - `Method`: Konstruktor, Setter & Getter
 3. Kelas Vehicle
-   Kelas Induk dari Kelas Car & Kelas Motorcycle
-   `Atribut`: Nama Kendaraan, Plat Nomor, Merk, Tahun Produksi, Warna
-    `Method`: Konstruktor, Setter & Getter
+   - Kelas Induk dari Kelas Car & Kelas Motorcycle
+   - `Atribut`: Nama Kendaraan, Plat Nomor, Merk, Tahun Produksi, Warna
+   - `Method`: Konstruktor, Setter & Getter
 4. Kelas Garage
-   Kelas Mandiri, tidak bergantung pada kelas lain
-   Memiliki Hubungan Composite dengan Kelas Car, Kelas Motorcycle dan kelas ParkingLot, karena objek dari kelas Garage memiliki atribut yang merupakan objek dari Kelas Car, Kelas Motorcycle dan Kelas           ParkingLot.
-   `Atribut`: Nama Garasi, Luas Garasi, daftarKendaraan (menyimpan objek dari kelas Car dan objek dari kelas Motorcycle)
-   `Method`: Konstruktor, Setter & Getter
+   - Kelas Mandiri, tidak bergantung pada kelas lain
+   - Memiliki Hubungan Composite dengan Kelas Car, Kelas Motorcycle dan kelas ParkingLot, karena objek dari kelas Garage memiliki atribut yang merupakan objek dari Kelas Car, Kelas Motorcycle dan Kelas           ParkingLot.
+   - `Atribut`: Nama Garasi, Luas Garasi, daftarKendaraan (menyimpan objek dari kelas Car dan objek dari kelas Motorcycle)
+   - `Method`: Konstruktor, Setter & Getter
 5. Kelas Parking Lot
-   Kelas Mandiri, tidak bergantung pada kelas lain
-   `Atribut`: Kapasitas, Jumlah Kendaraan Saat Ini
-   `Method`: Konstruktor, Setter & Getter
+   - Kelas Mandiri, tidak bergantung pada kelas lain
+   - `Atribut`: Kapasitas, Jumlah Kendaraan Saat Ini
+   - `Method`: Konstruktor, Setter & Getter
 6. Kelas Printer
-   Menampilkan semua informasi terkait data kendaraan, agar tampilan data dalam sebuah table
-   `Atribut`: find_max_length, print_table_car dan print_table_motorcycle
-   `Method`: Konstruktor, Membuat Tabel & Menampilkan Data
+   - Menampilkan semua informasi terkait data kendaraan, agar tampilan data dalam sebuah table
+   - `Atribut`: find_max_length, print_table_car dan print_table_motorcycle
+   - `Method`: Konstruktor, Membuat Tabel & Menampilkan Data
 
 
 ## Dokumentasi Program
